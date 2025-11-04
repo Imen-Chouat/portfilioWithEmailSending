@@ -1,3 +1,7 @@
+This is a portfilio that contains 5 pages : Home , About , Services , Projects and Contact 
+it include an api system to send email to the owner from the viewer .
+as it also provide the general information of the owner and hid cv to be downloaded .
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
