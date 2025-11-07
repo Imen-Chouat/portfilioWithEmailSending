@@ -10,7 +10,7 @@ export default function SocialIcon({ platform, url }) {
         <div className="flex flex-col p-2 space-y-4 ">
             {icons.map((icon) => (
                 <a key={icon.platform}  href={icon.link} className=" w-8 h-8 fill-white bg-white justify-center items-center p-1.5 rounded-full"  >
-                    <Image alt={icon.name} src={icon.src} width={20} height={20}/>
+                    <Image alt={icon.alt} src={icon.src} width={20} height={20}/>
                 </a>
             ))}
         </div>

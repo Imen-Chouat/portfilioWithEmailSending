@@ -56,7 +56,7 @@ export default function AboutPage() {
             <p className="text-lg mt-2 mb-4" ><span className="font-bold italic" >Developer</span> based in <span className="font-bold italic">Algeria</span></p>
           </div>
           <div className="font-black self-center text-gray-600 mx-6 hover:text-black" >
-            <span> Download CV</span>
+            <a href="/imencv.pdf" download>Download cv</a>
           </div>
         </div>
         {/* the second content can go here */ }
